@@ -1,0 +1,31 @@
+.max-w-xs {
+  max-width: 20rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+button[disabled] {
+  cursor: not-allowed;
+}
+
+tr.hover\:bg-gray-50:hover {
+  background-color: #f9fafb;
+  transition: background-color 0.2s ease;
+}
+
+.text-blue-600,
+.text-green-600 {
+  transition: color 0.15s ease-in-out;
+}
+
+button:focus,
+a:focus {
+  outline: 2px solid rgba(59, 130, 246, 0.5);
+  outline-offset: 2px;
+} 

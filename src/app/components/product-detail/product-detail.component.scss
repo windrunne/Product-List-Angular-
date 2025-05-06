@@ -1,0 +1,36 @@
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+button:focus,
+a:focus {
+  outline: 2px solid rgba(59, 130, 246, 0.5);
+  outline-offset: 2px;
+}
+
+button, 
+a {
+  transition: all 0.2s ease-in-out;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+@media (max-width: 768px) {
+  .md\:flex {
+    flex-direction: column;
+  }
+  
+  .md\:w-1\/2 {
+    width: 100%;
+  }
+} 
