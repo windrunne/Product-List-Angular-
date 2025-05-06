@@ -2,6 +2,12 @@
 
 A modern Angular application for managing and displaying products. This application fetches data from the JSONPlaceholder API and presents it in a clean, user-friendly interface.
 
+## Application Screenshot
+
+![Product Application Screenshot](./src/assets/product-app-screenshot.png)
+
+*Screenshot showing the product detail page with pricing, description, and action buttons.*
+
 ## Features
 
 - Product listing with pagination
